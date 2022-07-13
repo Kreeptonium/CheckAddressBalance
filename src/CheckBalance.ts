@@ -11,7 +11,7 @@ const addressBalance = await web3.eth.getBalance(process.env.walletAddress);
 console.log("Address Balance:",addressBalance);
 
 } catch (error) {
-    
+    console.log("Error: ", error);
 }
 
     
